@@ -1,1 +1,48 @@
-/* Empty. Add your own CSS if you like */
+.bar.bar-header{
+   height: 60px;
+}
+
+.bar.bar-header img{
+   border-radius: 50%;
+   width: 13%;
+}
+
+.item.item-input-inset{
+   width: 100%;
+   border: 0;
+}
+
+.item.item-input-inset input{
+   width: 100%;
+   border: 0;
+}
+
+.bar.bar-footer{
+   padding: 0;
+}
+
+.item h2{
+   white-space: normal;
+}
+
+.item input{
+   white-space: pre-line;
+   display: block;
+   background: white;
+   border: 0;
+}
+
+.item-stacked-label{
+   display: block;
+}
+
+h1.nome-app{
+   text-align: center;
+   font: helvetica;
+   margin-bottom: 100%;
+}
+
+.bar .title{
+   font-size: 200%;
+   margin-top: 1%;
+}
