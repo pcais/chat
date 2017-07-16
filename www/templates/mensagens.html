@@ -1,0 +1,29 @@
+<ion-view>
+   <div class="bar bar-header bar-dark">
+      <img ng-src="img/cab.jpg">
+      <h1 class="title">Cabrothers</h1>
+   </div>
+
+   <ion-content class="has-header has-footer">
+      <div class="list card">
+
+         <div class="item item-avatar" ng-repeat="mensagem in mensagens">
+            <img src="{{mensagem.foto}}">
+            <p>{{mensagem.nome}}</p>
+            <h2>{{mensagem.conteudo}}</h2>
+         </div>
+
+      </div>
+   </ion-content>
+
+   <div class="bar bar-footer">
+      <div class="item item-input-inset">
+         <label class="item-input-wrapper">
+            <input type="text" placeholder="..." ng-model="dados.conteudo">
+         </label>
+         <button class="button button-small" ng-click="enviar()">
+            Enviar
+         </button>
+      </div>
+   </div>
+</ion-view>
