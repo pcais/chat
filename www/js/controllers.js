@@ -21,12 +21,12 @@ angular.module('starter.controllers', [])
             $scope.dados.conteudo = "";
          })
       }
+      $ionicScrollDelegate.scrollBottom()
    }
 
    $interval(function () {
       $http.get('http://174.138.68.25:3000/chatcb').then(function(resposta){
          $scope.mensagens = resposta.data
-         $ionicScrollDelegate.scrollBottom()
       });
       Facebook.api('/me', function(response) {
          $scope.dados.nome = response.name;

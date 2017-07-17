@@ -21,6 +21,10 @@
    padding: 0;
 }
 
+.pglog{
+  /*margin-top: 100*/
+}
+
 .item h2{
    white-space: normal;
 }
@@ -36,10 +40,10 @@
    display: block;
 }
 
-h1.nome-app{
+.pglog{
    text-align: center;
    font: helvetica;
-   margin-bottom: 100%;
+   margin-top: 110%;
 }
 
 .bar .title{

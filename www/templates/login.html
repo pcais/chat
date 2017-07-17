@@ -1,7 +1,10 @@
 <ion-view>
-   <ion-content>
-      <h1 class="nome-app">What`s Cab</h1>
-      <div class="list">
+  <div class="bar bar-header bar-dark">
+    <h1 class="title">What`s Cab</h1>
+  </div>
+
+   <ion-content class="pglog has-header">
+      <div class="list divlog">
          <label class="item item-input item-stacked-label">
             <input type="text" placeholder="Nome" ng-model="dados.apelido" id="ap">
          </label>
@@ -11,5 +14,6 @@
          <button type="button" name="button" class="button button-positive button-block btface" ng-click="login()">
             Entrar com facebook
          </button>
+      </div>
       </ion-content>
    </ion-view>
